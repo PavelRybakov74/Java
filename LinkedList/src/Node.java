@@ -1,12 +1,12 @@
 public class Node<T> {
     T i;
 
-    Node(T i)
+    public Node(T i)
     {
         this.i=i;
     }
 
-    void print()
+    public void print()
     {
         System.out.print(i+" ");
     }

@@ -8,14 +8,14 @@ public class List<T> {
         count = 0;
     }
 
-    void push(Elem<T> el)
+    public void push(Elem<T> el)
     {
         el.next = head;
         head = el;
         count++;
     }
 
-    void pop()
+    public void pop()
     {
         Elem<T> temp = head;
         if (head != null)
