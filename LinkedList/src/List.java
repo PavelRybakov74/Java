@@ -1,6 +1,6 @@
 public class List<T> {
-    Elem<T> head;
-    int count;
+    private Elem<T> head;
+    private int count;
 
     public List()
     {
@@ -15,13 +15,27 @@ public class List<T> {
         count++;
     }
 
-    public void pop()
+    public T pop()
     {
         Elem<T> temp = head;
         if (head != null)
         {
             head = temp.next;
             count--;
+        }
+        return temp.inf.i;
+    }
+
+    public boolean isEmpty()
+    {
+        return head==null;
+    }
+
+    public void clear()
+    {
+        while(head!=null)
+        {
+            pop();
         }
     }
 

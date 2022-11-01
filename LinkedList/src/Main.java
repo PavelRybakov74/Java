@@ -14,6 +14,13 @@ public class Main {
         System.out.println("Listpop");
         list1.pop();
         list1.print();
+
+        System.out.println("isEmpty " + list1.isEmpty());
+
+        System.out.println("clear");
+        list1.clear();
+
+        System.out.println("isEmpty " + list1.isEmpty());
     }
 
 }

@@ -2,9 +2,9 @@ public class Elem<T> {
     Node<T> inf;
     Elem<T> next;
 
-    public Elem(T ind)
+    public Elem(T in)
     {
-        Node<T> el = new Node<T>(ind);
+        Node<T> el = new Node<T>(in);
         next = null;
         this.inf = el;
     }
