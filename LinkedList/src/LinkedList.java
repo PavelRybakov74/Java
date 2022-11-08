@@ -1,8 +1,8 @@
-public class List<T> {
+public class LinkedList<T> {
     private Elem<T> head;
     private int count;
 
-    public List()
+    public LinkedList()
     {
         head = null;
         count = 0;

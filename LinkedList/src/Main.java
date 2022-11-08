@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
 
-        List<Integer> list1 = new List<>();
+        LinkedList<Integer> list1 = new LinkedList<>();
 
         for(int i = 0; i<10; i++){
             Elem<Integer> el = new Elem<>(i);
