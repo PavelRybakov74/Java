@@ -1,0 +1,5 @@
+<tmData>
+	<tmi in="tm.KNP" out="rez.txt"/>
+	<datxml in="KNPIN.dat.xml" out="numName.txt"/>
+	<dim in="dimens.ion" out="numDim.txt"/>
+</tmData>
